@@ -36,8 +36,10 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
     
     @IBAction func loginBtn_click(sender: AnyObject) {
+        
         
         PFUser.logInWithUsernameInBackground(usernameTxt.text, password: passwordTxt.text){
             (user:PFUser?, error:NSError?) -> Void in
@@ -65,7 +67,9 @@ class LoginViewController: UIViewController {
         
         
         
+        
+        
     }
-
+    
     
 }

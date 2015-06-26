@@ -35,8 +35,11 @@
 		9BEA94A61B3C831E0009DAB0 /* BearAppHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94A51B3C831E0009DAB0 /* BearAppHeader.m */; };
 		9BEA94A91B3C83A70009DAB0 /* BearsAppHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94A81B3C83A70009DAB0 /* BearsAppHeader.m */; };
 		9BEA94AB1B3C84FF0009DAB0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA94AA1B3C84FF0009DAB0 /* libsqlite3.dylib */; };
-		9BEA94AD1B3C9D600009DAB0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94AC1B3C9D600009DAB0 /* UsersViewController.swift */; };
-		9BEA94AF1B3CA0E20009DAB0 /* resultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94AE1B3CA0E20009DAB0 /* resultsCell.swift */; };
+		9BEA94BF1B3D95A10009DAB0 /* RFduino.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94B61B3D95A10009DAB0 /* RFduino.m */; };
+		9BEA94C01B3D95A10009DAB0 /* RfduinoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94B91B3D95A10009DAB0 /* RfduinoManager.m */; };
+		9BEA94C51B3D99240009DAB0 /* resultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C41B3D99240009DAB0 /* resultsCell.swift */; };
+		9BEA94C71B3D9A9A0009DAB0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */; };
+		9BEA94CA1B3DA3560009DAB0 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +86,16 @@
 		9BEA94A71B3C83860009DAB0 /* BearsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BearsApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		9BEA94A81B3C83A70009DAB0 /* BearsAppHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearsAppHeader.m; sourceTree = "<group>"; };
 		9BEA94AA1B3C84FF0009DAB0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		9BEA94AC1B3C9D600009DAB0 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
-		9BEA94AE1B3CA0E20009DAB0 /* resultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsCell.swift; sourceTree = "<group>"; };
+		9BEA94B51B3D95A10009DAB0 /* RFduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduino.h; sourceTree = "<group>"; };
+		9BEA94B61B3D95A10009DAB0 /* RFduino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFduino.m; sourceTree = "<group>"; };
+		9BEA94B71B3D95A10009DAB0 /* RFduinoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoDelegate.h; sourceTree = "<group>"; };
+		9BEA94B81B3D95A10009DAB0 /* RfduinoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfduinoManager.h; sourceTree = "<group>"; };
+		9BEA94B91B3D95A10009DAB0 /* RfduinoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfduinoManager.m; sourceTree = "<group>"; };
+		9BEA94BA1B3D95A10009DAB0 /* RFduinoManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoManagerDelegate.h; sourceTree = "<group>"; };
+		9BEA94C41B3D99240009DAB0 /* resultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsCell.swift; sourceTree = "<group>"; };
+		9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		9BEA94C81B3DA3560009DAB0 /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,13 +167,15 @@
 		9BEA94581B3C7BB20009DAB0 /* BearsApp */ = {
 			isa = PBXGroup;
 			children = (
+				9BEA94C41B3D99240009DAB0 /* resultsCell.swift */,
+				9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */,
 				9BEA94A71B3C83860009DAB0 /* BearsApp-Bridging-Header.h */,
 				9BEA94A81B3C83A70009DAB0 /* BearsAppHeader.m */,
 				9BEA945B1B3C7BB20009DAB0 /* AppDelegate.swift */,
 				9BEA945D1B3C7BB20009DAB0 /* ViewController.swift */,
 				9BEA945F1B3C7BB20009DAB0 /* Main.storyboard */,
-				9BEA94AE1B3CA0E20009DAB0 /* resultsCell.swift */,
-				9BEA94AC1B3C9D600009DAB0 /* UsersViewController.swift */,
+				9BEA94C81B3DA3560009DAB0 /* SyncViewController.h */,
+				9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */,
 				9BEA947D1B3C7EBD0009DAB0 /* SignupViewController.swift */,
 				9BEA947B1B3C7CD30009DAB0 /* LoginViewController.swift */,
 				9BEA94621B3C7BB20009DAB0 /* Images.xcassets */,
@@ -201,6 +214,7 @@
 		9BEA94811B3C81300009DAB0 /* parse-library-1.7.4 (1) */ = {
 			isa = PBXGroup;
 			children = (
+				9BEA94B01B3D95A10009DAB0 /* rfduino */,
 				9BEA94821B3C81300009DAB0 /* Bolts.framework */,
 				9BEA94831B3C81300009DAB0 /* Parse.framework */,
 				9BEA94841B3C81300009DAB0 /* ParseCrashReporting.framework */,
@@ -209,6 +223,19 @@
 				9BEA94871B3C81300009DAB0 /* ParseUI.framework */,
 			);
 			path = "parse-library-1.7.4 (1)";
+			sourceTree = "<group>";
+		};
+		9BEA94B01B3D95A10009DAB0 /* rfduino */ = {
+			isa = PBXGroup;
+			children = (
+				9BEA94B51B3D95A10009DAB0 /* RFduino.h */,
+				9BEA94B61B3D95A10009DAB0 /* RFduino.m */,
+				9BEA94B71B3D95A10009DAB0 /* RFduinoDelegate.h */,
+				9BEA94B81B3D95A10009DAB0 /* RfduinoManager.h */,
+				9BEA94B91B3D95A10009DAB0 /* RfduinoManager.m */,
+				9BEA94BA1B3D95A10009DAB0 /* RFduinoManagerDelegate.h */,
+			);
+			path = rfduino;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,13 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEA94CA1B3DA3560009DAB0 /* SyncViewController.m in Sources */,
 				9BEA94A91B3C83A70009DAB0 /* BearsAppHeader.m in Sources */,
+				9BEA94C01B3D95A10009DAB0 /* RfduinoManager.m in Sources */,
 				9BEA947C1B3C7CD30009DAB0 /* LoginViewController.swift in Sources */,
 				9BEA945E1B3C7BB20009DAB0 /* ViewController.swift in Sources */,
-				9BEA94AD1B3C9D600009DAB0 /* UsersViewController.swift in Sources */,
+				9BEA94C51B3D99240009DAB0 /* resultsCell.swift in Sources */,
+				9BEA94BF1B3D95A10009DAB0 /* RFduino.m in Sources */,
 				9BEA947E1B3C7EBD0009DAB0 /* SignupViewController.swift in Sources */,
+				9BEA94C71B3D9A9A0009DAB0 /* UsersViewController.swift in Sources */,
 				9BEA945C1B3C7BB20009DAB0 /* AppDelegate.swift in Sources */,
-				9BEA94AF1B3CA0E20009DAB0 /* resultsCell.swift in Sources */,
 				9BEA94A61B3C831E0009DAB0 /* BearAppHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
