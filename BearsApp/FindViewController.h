@@ -1,5 +1,5 @@
 //
-//  SyncViewController.h
+//  FindViewController.h
 //  BearsApp
 //
 //  Created by Imee Cuison on 6/26/15.
@@ -7,25 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
 #import "RFduinoManager.h"
 
-@class RFduinoManager;
-@class RFduino;
 
-
-
-@interface SyncViewController : UITableViewController<RFduinoManagerDelegate, UITableViewDelegate>
-
-
-
+@interface FindViewController : UIViewController
 {
     RFduinoManager *rfduinoManager;
-    
-    
+    bool wasScanning;
 }
 
-
+@property (weak, nonatomic) IBOutlet UIButton *FindBtn;
+@property (strong, nonatomic) UIWindow *window;
 
 @end

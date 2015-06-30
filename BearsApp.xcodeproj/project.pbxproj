@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BEA945C1B3C7BB20009DAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA945B1B3C7BB20009DAB0 /* AppDelegate.swift */; };
 		9BEA945E1B3C7BB20009DAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA945D1B3C7BB20009DAB0 /* ViewController.swift */; };
 		9BEA94611B3C7BB20009DAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEA945F1B3C7BB20009DAB0 /* Main.storyboard */; };
 		9BEA94631B3C7BB20009DAB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEA94621B3C7BB20009DAB0 /* Images.xcassets */; };
@@ -40,6 +39,20 @@
 		9BEA94C51B3D99240009DAB0 /* resultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C41B3D99240009DAB0 /* resultsCell.swift */; };
 		9BEA94C71B3D9A9A0009DAB0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */; };
 		9BEA94CA1B3DA3560009DAB0 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */; };
+		9BEA94CD1B3DC8080009DAB0 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94CC1B3DC8080009DAB0 /* CustomCellBackground.m */; };
+		9BEA94CF1B3DC96C0009DAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA94CE1B3DC96C0009DAB0 /* Foundation.framework */; };
+		9BEA94D11B3DC97A0009DAB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA94D01B3DC97A0009DAB0 /* UIKit.framework */; };
+		9BEA94D31B3DC9830009DAB0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA94D21B3DC9830009DAB0 /* CoreBluetooth.framework */; };
+		9BEA94DC1B3DD7060009DAB0 /* BearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94DB1B3DD7060009DAB0 /* BearViewController.m */; };
+		9BEA94E71B3DF3BF0009DAB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94E61B3DF3BF0009DAB0 /* AppDelegate.m */; };
+		9BEA94E91B3DF3D70009DAB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94E81B3DF3D70009DAB0 /* main.m */; };
+		9BEA94ED1B3DF8DC0009DAB0 /* RFduino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94EC1B3DF8DC0009DAB0 /* RFduino.swift */; };
+		9BEA94F01B3E05FD0009DAB0 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94EF1B3E05FD0009DAB0 /* FindViewController.m */; };
+		9BEA94F41B418C690009DAB0 /* SmartBear.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94F31B418C690009DAB0 /* SmartBear.m */; };
+		9BEA94F91B4193B40009DAB0 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94F81B4193B40009DAB0 /* ConversationViewController.swift */; };
+		9BEA94FE1B4199AC0009DAB0 /* BlePacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA94FD1B4199AC0009DAB0 /* BlePacket.m */; };
+		9BEA95001B419D940009DAB0 /* off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BEA94FF1B419D940009DAB0 /* off.jpg */; };
+		9BEA95021B419D9A0009DAB0 /* on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BEA95011B419D9A0009DAB0 /* on.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +68,6 @@
 /* Begin PBXFileReference section */
 		9BEA94561B3C7BB20009DAB0 /* BearsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEA945A1B3C7BB20009DAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BEA945B1B3C7BB20009DAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BEA945D1B3C7BB20009DAB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BEA94601B3C7BB20009DAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BEA94621B3C7BB20009DAB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -96,6 +108,26 @@
 		9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		9BEA94C81B3DA3560009DAB0 /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
 		9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		9BEA94CB1B3DC7F90009DAB0 /* CustomCellBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		9BEA94CC1B3DC8080009DAB0 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		9BEA94CE1B3DC96C0009DAB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BEA94D01B3DC97A0009DAB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BEA94D21B3DC9830009DAB0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9BEA94DA1B3DD7060009DAB0 /* BearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearViewController.h; sourceTree = "<group>"; };
+		9BEA94DB1B3DD7060009DAB0 /* BearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearViewController.m; sourceTree = "<group>"; };
+		9BEA94E51B3DF3BF0009DAB0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BEA94E61B3DF3BF0009DAB0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BEA94E81B3DF3D70009DAB0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BEA94EC1B3DF8DC0009DAB0 /* RFduino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFduino.swift; sourceTree = "<group>"; };
+		9BEA94EE1B3E05FD0009DAB0 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		9BEA94EF1B3E05FD0009DAB0 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		9BEA94F21B418C690009DAB0 /* SmartBear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartBear.h; sourceTree = "<group>"; };
+		9BEA94F31B418C690009DAB0 /* SmartBear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartBear.m; sourceTree = "<group>"; };
+		9BEA94F81B4193B40009DAB0 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		9BEA94FC1B4199AC0009DAB0 /* BlePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlePacket.h; sourceTree = "<group>"; };
+		9BEA94FD1B4199AC0009DAB0 /* BlePacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlePacket.m; sourceTree = "<group>"; };
+		9BEA94FF1B419D940009DAB0 /* off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = off.jpg; sourceTree = "<group>"; };
+		9BEA95011B419D9A0009DAB0 /* on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = on.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +135,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEA94D31B3DC9830009DAB0 /* CoreBluetooth.framework in Frameworks */,
+				9BEA94D11B3DC97A0009DAB0 /* UIKit.framework in Frameworks */,
+				9BEA94CF1B3DC96C0009DAB0 /* Foundation.framework in Frameworks */,
 				9BEA94AB1B3C84FF0009DAB0 /* libsqlite3.dylib in Frameworks */,
 				9BEA94A11B3C81CE0009DAB0 /* SystemConfiguration.framework in Frameworks */,
 				9BEA949F1B3C81C50009DAB0 /* StoreKit.framework in Frameworks */,
@@ -136,6 +171,9 @@
 		9BEA944D1B3C7BB20009DAB0 = {
 			isa = PBXGroup;
 			children = (
+				9BEA94D21B3DC9830009DAB0 /* CoreBluetooth.framework */,
+				9BEA94D01B3DC97A0009DAB0 /* UIKit.framework */,
+				9BEA94CE1B3DC96C0009DAB0 /* Foundation.framework */,
 				9BEA94AA1B3C84FF0009DAB0 /* libsqlite3.dylib */,
 				9BEA94A51B3C831E0009DAB0 /* BearAppHeader.m */,
 				9BEA94A01B3C81CE0009DAB0 /* SystemConfiguration.framework */,
@@ -149,6 +187,8 @@
 				9BEA94901B3C81680009DAB0 /* CFNetwork.framework */,
 				9BEA948E1B3C81530009DAB0 /* AudioToolbox.framework */,
 				9BEA94811B3C81300009DAB0 /* parse-library-1.7.4 (1) */,
+				9BEA94F11B418BCE0009DAB0 /* Smart Bear */,
+				9BEA94B01B3D95A10009DAB0 /* rfduino */,
 				9BEA94581B3C7BB20009DAB0 /* BearsApp */,
 				9BEA946E1B3C7BB20009DAB0 /* BearsAppTests */,
 				9BEA94571B3C7BB20009DAB0 /* Products */,
@@ -167,18 +207,26 @@
 		9BEA94581B3C7BB20009DAB0 /* BearsApp */ = {
 			isa = PBXGroup;
 			children = (
+				9BEA94F81B4193B40009DAB0 /* ConversationViewController.swift */,
+				9BEA94DA1B3DD7060009DAB0 /* BearViewController.h */,
+				9BEA94DB1B3DD7060009DAB0 /* BearViewController.m */,
+				9BEA94E51B3DF3BF0009DAB0 /* AppDelegate.h */,
+				9BEA94E61B3DF3BF0009DAB0 /* AppDelegate.m */,
+				9BEA94C81B3DA3560009DAB0 /* SyncViewController.h */,
+				9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */,
+				9BEA94EE1B3E05FD0009DAB0 /* FindViewController.h */,
+				9BEA94EF1B3E05FD0009DAB0 /* FindViewController.m */,
 				9BEA94C41B3D99240009DAB0 /* resultsCell.swift */,
 				9BEA94C61B3D9A9A0009DAB0 /* UsersViewController.swift */,
 				9BEA94A71B3C83860009DAB0 /* BearsApp-Bridging-Header.h */,
 				9BEA94A81B3C83A70009DAB0 /* BearsAppHeader.m */,
-				9BEA945B1B3C7BB20009DAB0 /* AppDelegate.swift */,
 				9BEA945D1B3C7BB20009DAB0 /* ViewController.swift */,
 				9BEA945F1B3C7BB20009DAB0 /* Main.storyboard */,
-				9BEA94C81B3DA3560009DAB0 /* SyncViewController.h */,
-				9BEA94C91B3DA3560009DAB0 /* SyncViewController.m */,
 				9BEA947D1B3C7EBD0009DAB0 /* SignupViewController.swift */,
 				9BEA947B1B3C7CD30009DAB0 /* LoginViewController.swift */,
 				9BEA94621B3C7BB20009DAB0 /* Images.xcassets */,
+				9BEA95011B419D9A0009DAB0 /* on.jpg */,
+				9BEA94FF1B419D940009DAB0 /* off.jpg */,
 				9BEA94641B3C7BB20009DAB0 /* LaunchScreen.xib */,
 				9BEA94591B3C7BB20009DAB0 /* Supporting Files */,
 			);
@@ -188,6 +236,7 @@
 		9BEA94591B3C7BB20009DAB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BEA94E81B3DF3D70009DAB0 /* main.m */,
 				9BEA947F1B3C7F720009DAB0 /* placeholderuser.png */,
 				9BEA945A1B3C7BB20009DAB0 /* Info.plist */,
 			);
@@ -214,7 +263,6 @@
 		9BEA94811B3C81300009DAB0 /* parse-library-1.7.4 (1) */ = {
 			isa = PBXGroup;
 			children = (
-				9BEA94B01B3D95A10009DAB0 /* rfduino */,
 				9BEA94821B3C81300009DAB0 /* Bolts.framework */,
 				9BEA94831B3C81300009DAB0 /* Parse.framework */,
 				9BEA94841B3C81300009DAB0 /* ParseCrashReporting.framework */,
@@ -228,6 +276,9 @@
 		9BEA94B01B3D95A10009DAB0 /* rfduino */ = {
 			isa = PBXGroup;
 			children = (
+				9BEA94EC1B3DF8DC0009DAB0 /* RFduino.swift */,
+				9BEA94CB1B3DC7F90009DAB0 /* CustomCellBackground.h */,
+				9BEA94CC1B3DC8080009DAB0 /* CustomCellBackground.m */,
 				9BEA94B51B3D95A10009DAB0 /* RFduino.h */,
 				9BEA94B61B3D95A10009DAB0 /* RFduino.m */,
 				9BEA94B71B3D95A10009DAB0 /* RFduinoDelegate.h */,
@@ -235,7 +286,20 @@
 				9BEA94B91B3D95A10009DAB0 /* RfduinoManager.m */,
 				9BEA94BA1B3D95A10009DAB0 /* RFduinoManagerDelegate.h */,
 			);
-			path = rfduino;
+			name = rfduino;
+			path = "parse-library-1.7.4 (1)/rfduino";
+			sourceTree = "<group>";
+		};
+		9BEA94F11B418BCE0009DAB0 /* Smart Bear */ = {
+			isa = PBXGroup;
+			children = (
+				9BEA94F21B418C690009DAB0 /* SmartBear.h */,
+				9BEA94F31B418C690009DAB0 /* SmartBear.m */,
+				9BEA94FC1B4199AC0009DAB0 /* BlePacket.h */,
+				9BEA94FD1B4199AC0009DAB0 /* BlePacket.m */,
+			);
+			name = "Smart Bear";
+			path = "parse-library-1.7.4 (1)/rfduino";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BEA94801B3C7F720009DAB0 /* placeholderuser.png in Resources */,
+				9BEA95001B419D940009DAB0 /* off.jpg in Resources */,
 				9BEA94611B3C7BB20009DAB0 /* Main.storyboard in Resources */,
 				9BEA94661B3C7BB20009DAB0 /* LaunchScreen.xib in Resources */,
+				9BEA95021B419D9A0009DAB0 /* on.jpg in Resources */,
 				9BEA94631B3C7BB20009DAB0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,17 +405,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEA94ED1B3DF8DC0009DAB0 /* RFduino.swift in Sources */,
+				9BEA94CD1B3DC8080009DAB0 /* CustomCellBackground.m in Sources */,
+				9BEA94F91B4193B40009DAB0 /* ConversationViewController.swift in Sources */,
+				9BEA94FE1B4199AC0009DAB0 /* BlePacket.m in Sources */,
 				9BEA94CA1B3DA3560009DAB0 /* SyncViewController.m in Sources */,
 				9BEA94A91B3C83A70009DAB0 /* BearsAppHeader.m in Sources */,
 				9BEA94C01B3D95A10009DAB0 /* RfduinoManager.m in Sources */,
 				9BEA947C1B3C7CD30009DAB0 /* LoginViewController.swift in Sources */,
 				9BEA945E1B3C7BB20009DAB0 /* ViewController.swift in Sources */,
+				9BEA94E71B3DF3BF0009DAB0 /* AppDelegate.m in Sources */,
 				9BEA94C51B3D99240009DAB0 /* resultsCell.swift in Sources */,
+				9BEA94DC1B3DD7060009DAB0 /* BearViewController.m in Sources */,
 				9BEA94BF1B3D95A10009DAB0 /* RFduino.m in Sources */,
+				9BEA94F41B418C690009DAB0 /* SmartBear.m in Sources */,
+				9BEA94E91B3DF3D70009DAB0 /* main.m in Sources */,
 				9BEA947E1B3C7EBD0009DAB0 /* SignupViewController.swift in Sources */,
 				9BEA94C71B3D9A9A0009DAB0 /* UsersViewController.swift in Sources */,
-				9BEA945C1B3C7BB20009DAB0 /* AppDelegate.swift in Sources */,
 				9BEA94A61B3C831E0009DAB0 /* BearAppHeader.m in Sources */,
+				9BEA94F01B3E05FD0009DAB0 /* FindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +505,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/imee/Practice/BearsApp/BearsApp/BearsApp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -468,6 +544,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/imee/Practice/BearsApp/BearsApp/BearsApp-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -475,6 +552,10 @@
 		9BEA94761B3C7BB20009DAB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -484,15 +565,21 @@
 				);
 				INFOPLIST_FILE = BearsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BearsApp/BearsApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
 		9BEA94771B3C7BB20009DAB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -502,8 +589,10 @@
 				);
 				INFOPLIST_FILE = BearsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BearsApp/BearsApp-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};

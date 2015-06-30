@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import CoreBluetooth
+
+
 
 var userName = ""
+
+//var instanceOfCustomObject: SmartBear = SmartBear()
+
 
 class UsersViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -47,6 +53,11 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        self.navigationItem.hidesBackButton = true
+    }
+    
+    
     override func viewDidAppear(animated: Bool) {
         
         resultsUsernameArray.removeAll(keepCapacity: false)
@@ -69,17 +80,17 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
     }
     
-//        
-//        func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//            var cell = tableView.cellForRowAtIndexPath(indexPath) as! resultsCell
-//            
-//            otherName = cell.usernameLbl.text!
-//            otherProfileName = cell.profileNameLbl.text!
-//            self.performSegueWithIdentifier("goToConversationVC", sender: self)
-//            
-//            
-//            
-//        }
+        
+        func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+            var cell = tableView.cellForRowAtIndexPath(indexPath) as! resultsCell
+            
+            otherName = cell.usernameLbl.text!
+            otherProfileName = cell.profileNameLbl.text!
+            self.performSegueWithIdentifier("goToConvoVC", sender: self)
+            
+            
+            
+        }
 
         func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return resultsUsernameArray.count
@@ -111,12 +122,30 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
             
             return cell
         }
-        
+    
 
         
+    @IBAction func SyncBtn_click(sender: AnyObject) {
+        
+      
+//       rfduinoManager = RFduinoManager.sharedRFduinoManager;
+        
+        self.performSegueWithIdentifier("goToFindVC", sender: self)
         
         
+    }
         
+        
+
+    @IBAction func logoutBtn_click(sender: AnyObject) {
+        
+        PFUser.logOut()
+        
+      self.performSegueWithIdentifier("goToLogin", sender: self)
+        
+    }
+    
+    
         
         
     }
@@ -125,6 +154,8 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     
 
-    
+
+
+
    
     

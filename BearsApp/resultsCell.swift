@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let smartBear = SmartBear()
 
 class resultsCell: UITableViewCell {
     
